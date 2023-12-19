@@ -1,0 +1,149 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.App{
+    height: 100vh;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.Header{
+    background-color: antiquewhite;
+}
+
+.Header h1{
+    margin : 0;
+    text-align: center;
+    padding: 20px;
+}
+
+.Addlist {
+    max-width: 500px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 30px auto 15px auto;
+    padding: 10px;
+}
+
+
+.SearchItem form input:focus-visible,
+.Addlist form input:focus-visible{
+    outline: none;
+}
+
+.Addlist form input{
+    padding: 10px  5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    width: 80%;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.Addlist form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.Addlist form button{
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    width: 20%;
+    font-size: 14px;
+    
+}
+
+.SearchItem{
+    margin: auto;
+    max-width: 500px;
+    margin-bottom: 40px;
+}
+
+.SearchItem form{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+.SearchItem form label{
+    font-size: 24px;
+}
+
+.SearchItem form input{
+    flex: 1;
+    padding: 10px  5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+   
+    font-size: 20px;
+}
+
+.content{
+text-align: start;
+max-width: 500px;
+margin: auto;
+width: 100%;
+
+}
+
+.content  li{
+
+    font-size: 20px;
+}
+
+.content ul{
+    list-style: none;
+    padding-left: 20px;
+    padding-bottom: 80px;
+}
+
+.content  li{
+    padding: 5px 0;
+    display: flex;
+}
+.content li input{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+.content li label{
+    flex: 1;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.content li svg{
+    flex: 1;
+    cursor: pointer;
+    color: red;
+}
+
+.content p{
+    text-align: center;
+}
+
+.Footer{
+    bottom: 0px;
+    position: fixed;
+    background-color: antiquewhite;
+    width: 100%;
+}
+
+svg:focus{
+    outline: none;
+}
+
